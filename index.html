@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon-32x32.png" type=image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <title>Futeapp</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <header>
+                <div class="icons d-flex justify-content-between">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <ion-icon name="shirt-outline"></ion-icon>
+                    <ion-icon name="trophy-outline"></ion-icon>
+                </div>
+            </header>
+        </div>
+
+        <div class="row register d-flex justify-content-center">
+            <div class="input_register">
+                Nome<br>
+                <Select>
+                    <option value="Bico Fino">Bico Fino</option>
+                    <option value="João">João</option>
+                    <option value="Aldo">Aldo</option>
+                </Select><br><br>
+                Classe<br>
+                <select>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select><br>
+                <button class="add_player">+</button>
+            </div>
+        </div>
+
+        <div class="row players d-flex justify-content-center">
+            <div class="control_carousel d-flex justify-content-center">
+                <div class="players_carousel d-flex justify-content-center align-items-center">
+                    <div class="box-carousel text-center">
+                        <h1>Nome</h1>
+                        <div class="class_circle"><p>A</p></div>
+                    </div>
+                </div>
+                <div class="players_carousel d-flex justify-content-center align-items-center">
+                    <div class="box-carousel text-center">
+                        <h1>Nome</h1>
+                        <div class="class_circle"><p>B</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row total_players d-flex justify-content-center">
+            <div class="box_player d-flex align-items-center justify-content-center">
+                <div class="text_box_player text-center">
+                    <h1>Jogadores Registrados</h1>
+                    <ion-icon class="loading" name="refresh-circle-outline"></ion-icon>
+                    <div class="classes_qtd d-flex">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+
+
+
+
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

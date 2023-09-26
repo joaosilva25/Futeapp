@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon-32x32.png" type=image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleTB.css">
+    <title>Futeapp</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <header>
+                <div class="icons d-flex justify-content-between">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <ion-icon name="shirt-outline"></ion-icon>
+                    <ion-icon name="trophy-outline"></ion-icon>
+                </div>
+            </header>
+        </div>
+
+        <div class="row table_games d-flex justify-content-center">
+            <div class="scrolling">
+                <div class="matches">
+                    <div class="box_matches d-flex justify-content-center">
+                        <select class="left_team">
+                            <option>Verde</option>
+                            <option>Vermelho</option>
+                            <option>Preto</option>
+                            <option>Branco</option>
+                        </select>
+                        <input class="placar_left" value="0" type="number">
+                        <h2>:</h2>
+                        <input  class="placar_right" value="0" type="number">
+                        <select class="right_team">
+                            <option>Verde</option>
+                            <option>Vermelho</option>
+                            <option>Preto</option>
+                            <option>Branco</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="matches">
+                    <div class="box_matches d-flex justify-content-center">
+                        <select class="left_team">
+                            <option>Verde</option>
+                            <option>Vermelho</option>
+                            <option>Preto</option>
+                            <option>Branco</option>
+                        </select>
+                        <input class="placar_left" value="0" type="number">
+                        <h2>:</h2>
+                        <input  class="placar_right" value="0" type="number">
+                        <select class="right_team">
+                            <option>Verde</option>
+                            <option>Vermelho</option>
+                            <option>Preto</option>
+                            <option>Branco</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+                <div class="button_add d-flex justify-content-center">
+                    <button onclick="add()">+</button>
+                </div>
+        </div>
+
+
+        <button onclick="table()">Add</button>
+
+        <div class="row table_classification">
+            <div class="classification d-flex justify-content-center">
+                <table class="text-center">
+                    <tr class="top_table">
+                        <th>Time</th>
+                        <th>J</th>
+                        <th>GS</th>
+                        <th>GM</th>
+                        <th>Pts</th>
+                    </tr>
+                    <tr class="red_row">
+                        <td><div class="circle_teamred"></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="green_row">
+                        <td><div class="circle_teamgreen"></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="black_row">
+                        <td><div class="circle_teamblack"></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="white_row">
+                        <td><div class="circle_teamwhite"></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>  
+    </div>
+</body>
+
+
+
+
+
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="scriptTB.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
