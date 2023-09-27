@@ -14,9 +14,15 @@
         <div class="row header">
             <header>
                 <div class="icons d-flex justify-content-between">
-                    <ion-icon name="people-outline"></ion-icon>
-                    <ion-icon name="shirt-outline"></ion-icon>
-                    <ion-icon name="trophy-outline"></ion-icon>
+                    <a href="index.html">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </a>
+                    <a href="indexGR.html">
+                        <ion-icon name="shirt-outline"></ion-icon>
+                    </a>
+                    <a href="indexTB.html">
+                        <ion-icon name="trophy-outline"></ion-icon>
+                    </a>
                 </div>
             </header>
         </div>
@@ -24,18 +30,31 @@
         <div class="row register d-flex justify-content-center">
             <div class="input_register">
                 Nome<br>
-                <Select>
+                <select class="nomes">
                     <option value="Bico Fino">Bico Fino</option>
                     <option value="João">João</option>
                     <option value="Aldo">Aldo</option>
-                </Select><br><br>
+                    <option value="Felicio">Felicio</option>
+                    <option value="Ronaldo">Ronaldo</option>
+                    <option value="Terence">Terence</option>
+                    <option value="Anderson">Anderson</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Marcio M">Marcio M</option>
+                    <option value="Marcio">Marcio</option>
+                    <option value="Wilian">Willian</option>
+                    <option value="Luizinho">Luizinho</option>
+                    <option value="Juninho">Juninho</option>
+                    <option value="Paulo">Paulo</option>
+                    <option value="Rafael">Rafael</option>
+                    <option value="Pedro">Pedro</option>
+                </select><br><br>
                 Classe<br>
-                <select>
+                <select class="classe">
                     <option value="A">A</option>
                     <option value="B">B</option>
                     <option value="C">C</option>
                 </select><br>
-                <button class="add_player">+</button>
+                <button class="add_player" onclick="addPlayer()">+</button>
             </div>
         </div>
 
