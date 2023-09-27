@@ -21,27 +21,26 @@
 .header {
     height: 10vh;
     color:white;
-    background-color: #1E1E1E;
 }
 
-ion-icon:hover {
+.header ion-icon:hover {
     transform:scale(1.4);
     animation: rotate 2s ease-in-out infinite;
-    background-color: #747D94;
+    background-color: #060a1f;
     border-radius:50%;
     padding:20px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 body {
-    background-color: #1E1E1E;
+    background-color: #161e47;
 }
 
 
 .container-fluid {
-    background-color: #33314B;;
+    background: rgb(22,30,71);
+    background: radial-gradient(circle, rgba(22,30,71,0.9192051820728291) 0%, rgba(22,30,71,0.9612219887955182) 21%, rgba(22,30,71,0.9332107843137255) 100%);
 }
-
 .icons {
     margin-top:5%;
     margin-right:5%;
@@ -63,34 +62,44 @@ ion-icon {
     height:100%;
 }
 
-.add_player {
-    border-radius:50%;
-    width: 50px;
-    height: 46px;
-    margin-top:10%;
-    margin-left:10vw;
-    background-color: #1E1E1E;
-    color:white;
-    border:1px solid white;
+button ion-icon {
+    font-size:20px;
+    color:#ffffff;
 }
 
-.add_player:hover {
-    background-color: #747D94;
-    transition:0.5s ease-in-out;
+button {
+    position:relative;top:20px;
+    color:white;
+    background-color: transparent;
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50%;
+    border:1px solid white;
+    width: 45px;
+    height: 45px;
 }
+
+button ion-icon:active {
+    background-color: #060a1f;
+    border-radius:50%;
+    padding:10px;
+    transform:scale(1.2);
+}
+
 
 Select {
     border-radius:20px;
-    background-color:white;
+    background-color: #060a1f;
     padding:5px;
     width:30vw;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 option {
     color:rgb(255, 255, 255);
-    background-color:#1E1E1E;
+    background-color: #060a1f;
 }
 
 .players {
@@ -112,7 +121,7 @@ option {
 
 .players_carousel {
     margin-top:10px;
-    background-color:#1E1E1E;
+    background-color: #060a1f;
     min-height:70px;
     min-width:120px;
     border-radius:20px;
@@ -140,7 +149,7 @@ option {
 
 .box_player {
     width:180px;
-    background-color:#33314B;
+    background-color: #060a1f;
     height:120px;
     margin-left:20vw;
     margin-right:20vw;

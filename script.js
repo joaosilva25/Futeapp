@@ -16,15 +16,5 @@ function addPlayer() {
     console.log(listPlayers)
     console.log(listClasses)
 
-    let ObjectPlayers={}
-
-    if (listPlayers.length == listClasses.length) {
-
-        for (let i=0; i<listPlayers.length;) {
-            ObjectPlayers[listPlayers[i]]=listClasses[i]
-        }
-
-        console.log(objetoVinculado);
-    }
 
 }
