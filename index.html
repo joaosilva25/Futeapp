@@ -54,37 +54,25 @@
                     <option value="B">B</option>
                     <option value="C">C</option>
                 </select><br>
-                <button class="add_player" onclick="addPlayer()"><ion-icon name="person-add-outline"></ion-icon></button>
+                <div class="buttons d-flex">
+                    <button class="add_player" onclick="addPlayer()"><ion-icon name="person-add-outline"></ion-icon></button>
+                    <button onclick="generateTeam()"><ion-icon name="dice-outline"></ion-icon></button>   
+                    <button onclick="eraser()"><ion-icon name="trash-outline"></ion-icon></button>  
+                </div>
             </div>
         </div>
 
         <div class="row players d-flex justify-content-center">
-            <div class="control_carousel d-flex justify-content-center">
-                <div class="players_carousel d-flex justify-content-center align-items-center">
-                    <div class="box-carousel text-center">
-                        <h1>Nome</h1>
-                        <div class="class_circle"><p>A</p></div>
-                    </div>
-                </div>
-                <div class="players_carousel d-flex justify-content-center align-items-center">
-                    <div class="box-carousel text-center">
-                        <h1>Nome</h1>
-                        <div class="class_circle"><p>B</p></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row total_players d-flex justify-content-center">
-            <div class="box_player d-flex align-items-center justify-content-center">
-                <div class="text_box_player text-center">
-                    <h1>Jogadores Registrados</h1>
-                    <ion-icon class="loading" name="refresh-circle-outline"></ion-icon>
-                    <div class="classes_qtd d-flex">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
+            <div class="table_control">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Classe</th>
+                <tr class="example">
+                    <td>...</td>
+                    <td>A</td>
+                </tr>
+            </table>
             </div>
         </div>
 
