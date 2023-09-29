@@ -171,13 +171,15 @@ function generateTeam() {
     console.log("Time Branco")
     console.log(whiteTeam)
 
+
     localStorage.setItem('redTeam',JSON.stringify(redTeam))
     localStorage.setItem('greenTeam',JSON.stringify(greenTeam))
     localStorage.setItem('blackTeam',JSON.stringify(blackTeam))
     localStorage.setItem('whiteTeam',JSON.stringify(whiteTeam))
 
-}
 
+
+}
 
 
 function eraser() {
@@ -200,5 +202,7 @@ function eraser() {
     })
 
     table.appendChild(example)
+
+    localStorage.clear()
   
 }
