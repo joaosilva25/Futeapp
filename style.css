@@ -84,11 +84,8 @@ button {
     height: 45px;
 }
 
-button ion-icon:active {
-    background-color: #060a1f;
-    border-radius:50%;
-    padding:10px;
-    transform:scale(1.2);
+button:active {
+    transform:scale(1.4);
 }
 
 
@@ -136,4 +133,17 @@ th,td,tr {
     width:250px;
     max-height:300px;
     overflow-y: auto;
+}
+
+.teams_error {
+    font-size:14px;
+    position:relative;top:50px;
+}
+
+.cleanItem {
+    position:relative;top:0px;
+    width:98%;
+    height:100%;
+    background-color: #161e47;
+    border-radius:0%;
 }
